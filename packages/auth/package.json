@@ -1,0 +1,27 @@
+{
+	"dependencies": {
+		"@node-rs/argon2": "^2.0.0",
+		"@oslojs/crypto": "^1.0.1",
+		"@oslojs/encoding": "^1.1.0",
+		"arctic": "^2.2.0",
+		"cookie": "^1.0.1",
+		"database": "workspace:*",
+		"logs": "workspace:*",
+		"next": "15.0.2",
+		"utils": "workspace:*",
+		"zod": "^3.23.8"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/node": "^22.8.4",
+		"@types/react": "18.3.12",
+		"tsconfig": "workspace:*"
+	},
+	"main": "./index.tsx",
+	"name": "auth",
+	"scripts": {
+		"type-check": "tsc --noEmit"
+	},
+	"types": "./**/.tsx",
+	"version": "0.0.0"
+}

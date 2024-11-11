@@ -1,0 +1,17 @@
+{
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/node": "^22.8.4",
+		"tsconfig": "workspace:*"
+	},
+	"main": "./index.tsx",
+	"name": "logs",
+	"scripts": {
+		"type-check": "tsc --noEmit"
+	},
+	"types": "./**/.tsx",
+	"version": "0.0.0",
+	"dependencies": {
+		"consola": "^3.2.3"
+	}
+}
