@@ -53,7 +53,7 @@
 		"tailwindcss-animate": "^1.0.7",
 		"usehooks-ts": "^3.1.0",
 		"utils": "workspace:*",
-		"uuid": "^11.0.2",
+		"uuid": "^11.0.3",
 		"zod": "^3.23.8"
 	},
 	"devDependencies": {
