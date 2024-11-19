@@ -32,7 +32,7 @@
 		"jotai": "2.8.0",
 		"js-cookie": "^3.0.5",
 		"logs": "workspace:*",
-		"lucide-react": "^0.454.0",
+		"lucide-react": "^0.460.0",
 		"mail": "workspace:*",
 		"next": "15.0.2",
 		"next-intl": "3.23.5",
