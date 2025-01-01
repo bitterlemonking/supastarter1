@@ -8,7 +8,7 @@
 		"database": "workspace:*",
 		"logs": "workspace:*",
 		"mail": "workspace:*",
-		"next": "15.0.2",
+		"next": "15.1.3",
 		"openai": "^4.68.4",
 		"storage": "workspace:*",
 		"stripe": "^17.3.0",
