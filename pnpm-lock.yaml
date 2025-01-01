@@ -200,14 +200,14 @@ importers:
         specifier: 1.9.4
         version: 1.9.4
       '@content-collections/core':
-        specifier: ^0.7.2
-        version: 0.7.2(typescript@5.6.3)
+        specifier: ^0.8.0
+        version: 0.8.0(typescript@5.6.3)
       '@content-collections/mdx':
         specifier: ^0.2.0
-        version: 0.2.0(@content-collections/core@0.7.2(typescript@5.6.3))(acorn@8.12.1)(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)
+        version: 0.2.0(@content-collections/core@0.8.0(typescript@5.6.3))(acorn@8.12.1)(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)
       '@content-collections/next':
-        specifier: ^0.2.3
-        version: 0.2.3(@content-collections/core@0.7.2(typescript@5.6.3))(next@15.0.2(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020))
+        specifier: ^0.2.4
+        version: 0.2.4(@content-collections/core@0.8.0(typescript@5.6.3))(next@15.0.2(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020))
       '@mdx-js/mdx':
         specifier: ^3.1.0
         version: 3.1.0(acorn@8.12.1)
@@ -909,8 +909,8 @@ packages:
     resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
     engines: {node: '>=0.1.90'}
 
-  '@content-collections/core@0.7.2':
-    resolution: {integrity: sha512-jOpQV6etstGF477CoMXdh4Cwl4fEbgZhty/WKxPsP3akx1LE4Ds8w89WZVsy8pttnR6KC4psrjCtlwa9WNS+rg==}
+  '@content-collections/core@0.8.0':
+    resolution: {integrity: sha512-WCP9mQCbigjalgl0wE96wjbmk6dZVk0Jw5VL4/lCSfKM70LrpjIHFtFGNpF1w2n4M/kODsvVZ/F5bX+co0q8OQ==}
     peerDependencies:
       typescript: ^5.0.2
 
@@ -926,8 +926,8 @@ packages:
       react: '>= 18'
       react-dom: '>= 18'
 
-  '@content-collections/next@0.2.3':
-    resolution: {integrity: sha512-8rteKhfu8sJOtQAzVt4iMkgbCso2yzfTzq6kXFYNW6HwDJzaFjLeHiIO4Pa6oFOCh3w9CApFdloTAKWzQJKpHQ==}
+  '@content-collections/next@0.2.4':
+    resolution: {integrity: sha512-MAmnKX/Lj4rDIWkcnzQIASboi8vmv5w+/uxM6gHPPQFXcp1yiiZndxbzR9TV7ul1J6i7HB1h9Qpj6gvCz/HwvA==}
     peerDependencies:
       '@content-collections/core': 0.x
       next: ^12 || ^13 || ^14 || ^15
@@ -6232,7 +6232,7 @@ snapshots:
   '@colors/colors@1.5.0':
     optional: true
 
-  '@content-collections/core@0.7.2(typescript@5.6.3)':
+  '@content-collections/core@0.8.0(typescript@5.6.3)':
     dependencies:
       '@parcel/watcher': 2.4.1
       camelcase: 8.0.0
@@ -6247,13 +6247,13 @@ snapshots:
       yaml: 2.4.5
       zod: 3.23.8
 
-  '@content-collections/integrations@0.2.1(@content-collections/core@0.7.2(typescript@5.6.3))':
+  '@content-collections/integrations@0.2.1(@content-collections/core@0.8.0(typescript@5.6.3))':
     dependencies:
-      '@content-collections/core': 0.7.2(typescript@5.6.3)
+      '@content-collections/core': 0.8.0(typescript@5.6.3)
 
-  '@content-collections/mdx@0.2.0(@content-collections/core@0.7.2(typescript@5.6.3))(acorn@8.12.1)(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)':
+  '@content-collections/mdx@0.2.0(@content-collections/core@0.8.0(typescript@5.6.3))(acorn@8.12.1)(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)':
     dependencies:
-      '@content-collections/core': 0.7.2(typescript@5.6.3)
+      '@content-collections/core': 0.8.0(typescript@5.6.3)
       esbuild: 0.21.5
       mdx-bundler: 10.0.3(acorn@8.12.1)(esbuild@0.21.5)
       react: 19.0.0-rc-65a56d0e-20241020
@@ -6263,10 +6263,10 @@ snapshots:
       - acorn
       - supports-color
 
-  '@content-collections/next@0.2.3(@content-collections/core@0.7.2(typescript@5.6.3))(next@15.0.2(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020))':
+  '@content-collections/next@0.2.4(@content-collections/core@0.8.0(typescript@5.6.3))(next@15.0.2(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020))':
     dependencies:
-      '@content-collections/core': 0.7.2(typescript@5.6.3)
-      '@content-collections/integrations': 0.2.1(@content-collections/core@0.7.2(typescript@5.6.3))
+      '@content-collections/core': 0.8.0(typescript@5.6.3)
+      '@content-collections/integrations': 0.2.1(@content-collections/core@0.8.0(typescript@5.6.3))
       next: 15.0.2(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)
 
   '@cypress/request@3.0.5':
