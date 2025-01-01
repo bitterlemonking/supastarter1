@@ -1,6 +1,6 @@
 {
 	"dependencies": {
-		"@aws-sdk/client-s3": "3.437.0",
+		"@aws-sdk/client-s3": "3.717.0",
 		"@hookform/resolvers": "^3.9.1",
 		"@node-rs/argon2": "^2.0.0",
 		"@radix-ui/react-accordion": "^1.2.1",
