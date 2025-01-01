@@ -118,8 +118,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/i18n
       jotai:
-        specifier: 2.8.0
-        version: 2.8.0(react@19.0.0-rc-65a56d0e-20241020)(types-react@19.0.0-rc.1)
+        specifier: 2.11.0
+        version: 2.11.0(react@19.0.0-rc-65a56d0e-20241020)(types-react@19.0.0-rc.1)
       js-cookie:
         specifier: ^3.0.5
         version: 3.0.5
@@ -3999,8 +3999,8 @@ packages:
   joi@17.13.3:
     resolution: {integrity: sha512-otDA4ldcIx+ZXsKHWmp0YizCweVRZG96J10b0FevjfuncLO1oX59THoAmHkNubYJ+9gWsYsp5k8v4ib6oDv1fA==}
 
-  jotai@2.8.0:
-    resolution: {integrity: sha512-yZNMC36FdLOksOr8qga0yLf14miCJlEThlp5DeFJNnqzm2+ZG7wLcJzoOyij5K6U6Xlc5ljQqPDlJRgqW0Y18g==}
+  jotai@2.11.0:
+    resolution: {integrity: sha512-zKfoBBD1uDw3rljwHkt0fWuja1B76R7CjznuBO+mSX6jpsO1EBeWNRKpeaQho9yPI/pvCv4recGfgOXGxwPZvQ==}
     engines: {node: '>=12.20.0'}
     peerDependencies:
       '@types/react': npm:types-react@19.0.0-rc.1
@@ -9314,7 +9314,7 @@ snapshots:
       '@sideway/formula': 3.0.1
       '@sideway/pinpoint': 2.0.0
 
-  jotai@2.8.0(react@19.0.0-rc-65a56d0e-20241020)(types-react@19.0.0-rc.1):
+  jotai@2.11.0(react@19.0.0-rc-65a56d0e-20241020)(types-react@19.0.0-rc.1):
     optionalDependencies:
       '@types/react': types-react@19.0.0-rc.1
       react: 19.0.0-rc-65a56d0e-20241020
