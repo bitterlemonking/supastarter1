@@ -357,8 +357,8 @@ importers:
         specifier: ^1.1.0
         version: 1.1.0
       arctic:
-        specifier: ^2.2.0
-        version: 2.2.0
+        specifier: ^3.2.1
+        version: 3.2.1
       cookie:
         specifier: ^1.0.1
         version: 1.0.1
@@ -2951,8 +2951,8 @@ packages:
   arch@2.2.0:
     resolution: {integrity: sha512-Of/R0wqp83cgHozfIYLbBMnej79U/SVGOOyuB3VVFv1NRM/PSFMK12x9KVtiYzJqmnU5WR2qp0Z5rHb7sWGnFQ==}
 
-  arctic@2.2.0:
-    resolution: {integrity: sha512-OGY7XwuFgZ32MUbqd4e7iH2Zq9iZVmub+n0NSFzxNo33Bdkcb4/Zv/sBpeBvYlxToCJRCY46SpjeSubyDVLd5Q==}
+  arctic@3.2.1:
+    resolution: {integrity: sha512-lvOfv088aiaNCN4bGpnVd0cJmQKUkB2gGaZeA3lTwbBZVj69+zd/LpBPO6CXNCyX45CKqqcaOV6J7HeJ1k4hEA==}
 
   arg@5.0.2:
     resolution: {integrity: sha512-PYjyFOLKQ9y57JvQ6QLo8dAgNqswh8M1RMJYdQduT6xbWSgK36P/Z/v+p888pM69jMMfS8Xd8F6I1kQ/I9HUGg==}
@@ -4123,6 +4123,7 @@ packages:
 
   lodash.template@4.5.0:
     resolution: {integrity: sha512-84vYFxIkmidUiFxidA/KjjH9pAycqW+h980j7Fuz5qxRtO9pgB7MDFTdys1N7A5mcucRiDyEq4fusljItR1T/A==}
+    deprecated: This package is deprecated. Use https://socket.dev/npm/package/eta instead.
 
   lodash.templatesettings@4.2.0:
     resolution: {integrity: sha512-stgLz+i3Aa9mZgnjr/O+v9ruKZsPsndy7qPZOchbqk2cnTU1ZaldKK+v7m54WoKIyxiuMZTKT2H81F8BeAc3ZQ==}
@@ -4550,6 +4551,7 @@ packages:
 
   oslo@1.2.1:
     resolution: {integrity: sha512-HfIhB5ruTdQv0XX2XlncWQiJ5SIHZ7NHZhVyHth0CSZ/xzge00etRyYy/3wp/Dsu+PkxMC+6+B2lS/GcKoewkA==}
+    deprecated: Package is no longer supported. Please see https://oslojs.dev for the successor project.
 
   ospath@1.2.2:
     resolution: {integrity: sha512-o6E5qJV5zkAbIDNhGSIlyOhScKXgQrSRMilfph0clDfM0nEnBOlKlH4sWDmG95BW/CvwNz0vmm7dJVtU2KlMiA==}
@@ -8171,7 +8173,7 @@ snapshots:
 
   arch@2.2.0: {}
 
-  arctic@2.2.0:
+  arctic@3.2.1:
     dependencies:
       '@oslojs/crypto': 1.0.1
       '@oslojs/encoding': 1.1.0
